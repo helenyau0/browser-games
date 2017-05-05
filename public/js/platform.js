@@ -31,84 +31,84 @@ monsterImage.onload = function () {
 };
 monsterImage.src = "./img/idle_2.png";
 
-let platform = [{ // 0
+let platform = [{ 
   x: 0,
   y: 310,
   width: 70,
   height: 70,
   img: "./img/cake.png"
 },
-{ // 1
+{
   x: 70,
   y: 310,
   width: 70,
   height: 70,
   img: "./img/cake1.png"
 },
-{ // 2
+{
   x: 140,
   y: 310,
   width: 70,
   height: 70,
   img: "./img/cake2.png"
 },
-{ // 3
+{
   x: 210,
   y: 310,
   width: 70,
   height: 70,
   img: "./img/cake3.png"
 },
-{ // 4
+{
   x: 280,
   y: 310,
   width: 70,
   height: 70,
   img: "./img/cakeCenter.png"
 },
-{ // 5
+{
   x: 280,
   y: 240,
   width: 70,
   height: 70,
   img: "./img/cake6.png"
 },
-{ //6
+{
   x: 350,
   y: 310,
   width: 70,
   height: 70,
   img: "./img/cakeCenter.png"
 },
-{ //7
+{
   x: 420,
   y: 310,
   width: 70,
   height: 70,
   img: "./img/cakeCenter1.png"
 },
-{//8
+{
   x: 490,
   y: 310,
   width: 70,
   height: 70,
   img: "./img/cakeCenter2.png"
 },
-{ //9
+{
   x: 420,
   y: 240,
   width: 70,
   height: 70,
   img: "./img/cake3.png"
 },
-{//10
+{
   x: 350,
   y: 240,
   width: 70,
   height: 70,
   img: "./img/cake4.png"
 },
-{//11
+{
   x: 490,
   y: 240,
   width: 70,
@@ -316,7 +316,6 @@ let render = function () {
   if(monsterReady) {
     ctx.drawImage(monsterImage, monster.x, monster.y);
   }
-
 
   ctx.fillStyle = "#C99AFE"
   ctx.font = "24px Helvetica"
